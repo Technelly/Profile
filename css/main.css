@@ -1,0 +1,341 @@
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background: #3d155f;
+  height: 80px;
+  width: 100%
+}
+label.logo {
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0;
+  font-weight: bold;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+a.active,a:hover {
+  background: #c54ed4;
+  transition: 0.5s;
+}
+
+.chkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+
+
+
+body {
+    background-image: url(../images/code.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  color: #34f3d1;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+
+
+
+h1 {
+  font-size: 3.125rem;
+  font-family: 'Dancing Script', cursive;
+  margin-top: 50 auto 0 auto;
+  color: #d8e9f0;
+}
+
+.sub {
+  color: #d8e9f0;
+}
+
+h2 {
+  font-size: 32px;
+  font-family: 'Montserrat', sans-serif;
+  color: #e8f1a4;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+border-style: none;
+border-top: dotted;
+border-width: 5px;
+width: 100px;
+border-color: #734c77;
+margin: 30px auto;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+p{
+  line-height: 2
+}
+
+.intro {
+  width: 70%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.contact-message {
+width: 40%;
+margin: 40px auto 60px;
+}
+
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.85rem;
+  padding: 20px 0;
+}
+
+.topcontainer {
+  background-image: url(../images/samuel.png);
+  background-repeat: no-repeat;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 150px;
+  border-radius: 100px;
+}
+
+.text-color {
+  color: #3d155f;
+  text-align: right;
+  padding-right: 150px;
+  font-family: Century Gothic;
+}
+.text-pd {
+  padding-top: 150px;
+}
+.middle-container {
+  margin: 100px 0;
+
+}
+.bottom-container {
+  background-color: #3d155f;
+  padding: 50px 0 20px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.bottomcloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.topcloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.radius {
+  height: 200px;
+  width: 180px;
+  border-radius: 100px;
+}
+
+.radius2 {
+  /* border-radius: 50%;
+  height: 300px;
+  padding-bottom: 20px;
+  width: 200px; */
+  visibility: hidden;
+}
+
+.java {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.game {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 100px;
+}
+
+.form-input {
+  width: 400px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+input {
+  height: 45px;
+}
+
+form .submit {
+  background-color: #ff5722;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  height: 40px;
+  margin-top: 20px;
+  transition: 0.3s
+}
+
+form .submit:hover {
+background-color: #3d155f;
+cursor: pointer;
+}
+
+
+
+
+@media (max-width:958px) {
+  .text-color {
+    color: #fff;
+    text-align: right;
+visibility: hidden;
+  }
+  .topcloud {
+    position: absolute;
+    right:  30px;
+    top: 50px;
+}
+.bottomcloud {
+  position: absolute;
+  left: 30px;
+  bottom: 370px;
+}
+
+.radius2 {
+  display: none;
+   /* margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   height: 50%; */
+}
+.topcontainer {
+  background-image: url(../images/samuel.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 50px;
+  background-repeat: no-repeat;
+  background-color: #222831;
+  position: relative;
+  padding-top: 300px;
+  padding-bottom: 50px;
+  height: 150px;
+  z-index: -1;
+
+}
+.topcloud {
+  visibility: hidden;
+}
+.form-input {
+  width: 250px;
+}
+label .logo {
+  font-size: 30px;
+  /* padding: 50px; */
+  line-height: 5px;
+}
+nav ul li a {
+  font-size: 16px;
+}
+/* .chkbtn {
+  font-size: 30px;
+  color: re;
+  float: left;
+  line-height: 80px;
+  margin-left: 40px;
+  cursor: pointer;
+  display: block;
+} */
+
+}
+
+
+
+@media (max-width:858px) {
+  .chkbtn {
+    display: block;
+  }
+  label .logo {
+    font-size: 30px;
+    /* padding: 50px; */
+    line-height: 2px;
+  }
+
+  ul {
+    position: absolute;
+    width: 35%;
+    height: 85vh;
+    background: #11999E;
+    top: 80px;
+    left: -100%;
+    text-align: right;
+    transition: 0.5s;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  nav ul li {
+    display: block;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active {
+    background: none;
+    color: #3d155f;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+  }
+}
